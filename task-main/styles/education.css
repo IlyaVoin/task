@@ -1,0 +1,168 @@
+.block-3 .experience-info {
+    max-width: 305px !important;
+    max-height: 330px !important;
+    padding: 12px 8px 12px 12px;
+}
+
+.block-3 .tools-info{
+    width: 267px !important;
+    /* max-height: 289px; */
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+
+.block-3 .tools-info .interests-block{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #F0F0F0;
+    max-height: 198px !important;
+}
+
+.interests-block .header-text{
+    margin-bottom: 15px;
+}
+
+.education-cards {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.education-card {
+    width: 100%;
+    max-width: 116px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 10px;
+    width: 116px;
+    height: 108px;
+
+}
+
+.education-card-3{
+    height: 96px !important;
+}
+
+.education-card.active {
+    background: #28D979;
+    height: 120px;
+}
+
+.card-year {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-year h2 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    color: #000;
+}
+
+.education-card.active .card-year h2 {
+    color: #FFFFFF;
+
+}
+
+.card-body h3 {
+
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    color: #000;
+}
+
+.education-card.active h3 {
+    color: #FFFFFF;
+}
+
+.card-body .body-hashtags {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    color: #149063;
+    margin-bottom: 8px;
+
+}
+
+.education-card.active .card-body .body-hashtags {
+    color: #EBF9F2;
+}
+
+.card-foot {
+    font-size: 8px;
+    line-height: 150%;
+    color: #000;
+}
+
+.education-card.active .card-foot {
+    color: #fff;
+}
+
+.interests-flex {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.interest-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 4px 10px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 10px;
+    color: #333;
+}
+
+.interest-item:empty {
+    visibility: hidden;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+
+    max-width: 267px;
+    height: 92px;
+
+    background: #000000;
+    border-radius: 12px;
+
+}
+
+.info h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+}
+
+.info a {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+
+    color: #DDDDDD;
+}
